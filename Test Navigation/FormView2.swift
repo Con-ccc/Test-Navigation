@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct FormView: View {
+struct FormView2: View {
     var formNumber: Int
 
     var body: some View {
         Form {
-            Text("This is Form \(formNumber)")
+            Text("This is Form 2\(formNumber)")
             // Add form fields and UI elements as needed
         }
-        .navigationTitle("Form \(formNumber)")
+        .navigationTitle("Form 2 \(formNumber)")
     }
 }

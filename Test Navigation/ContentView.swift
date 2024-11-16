@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct YContentView: View {
+struct ContentView: View {
     var body: some View {
         NavigationView {
             TabView {

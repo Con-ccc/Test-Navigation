@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ZContentView: View {
     @State private var selectedForm = 1
     
     var body: some View {
@@ -25,5 +25,5 @@ struct ContentView: View {
     }
 }
 #Preview {
-    ContentView()
+    ZContentView()
 }

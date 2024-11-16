@@ -1,3 +1,11 @@
+//
+//  CategoryView.swift
+//  Test Navigation
+//
+//  Created by Con Coucoumakis on 17/11/2024.
+//
+import SwiftUI
+
 // Category View with its own TabView
 struct CategoryView: View {
     @Binding var path: [Screen]  // Bind the path to maintain navigation state
@@ -6,7 +14,8 @@ struct CategoryView: View {
         TabView {
             // Navigate back to MainView
             Button(action: {
-                path.append(.mainView)  // Push MainView onto the navigation path
+                path.removeAll()
+                //path.append(.mainView)  // Push MainView onto the navigation path
             }) {
                 Text("Back to Main View")
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
